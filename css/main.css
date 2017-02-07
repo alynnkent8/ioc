@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+/*CSS Reset*/
+*{
+  /* Remove spacing */
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{font-size: 4.8rem;}
+
+.center h1{font-family: 'Quattrocento', serif;}
+
+a{ padding: 1%;}
+
+.center {text-align: center;}
+
+.first{
+  background-image:
+  url("http://i.giphy.com/d3mnexemmaCiMn9m.gif");
+  /*Stretch image and stop it tiling*/
+  background-size: cover;
+  /*Full height background image vh=viewport height and makes the imagse height match the viewports*/
+  background-position: center;
+  min-height: 100vh;
+}
+header{
+  padding: 5%;
+}
+header h2{
+  padding-bottom: 2%;
+}
+.first h2{
+  padding-top: 1%
+}
+
+.first h3{
+  padding-top: 0.5%
+}
+
+.box{
+  background-color: white;
+  margin:15vh auto;
+  width: 700px;
+  padding: 40px;
+}
+
+iframe{
+  width:100%
+}
+#skills {
+  margin: 100px
+}
+#skills h2 {
+  text-align: center;
+}
+#skills div {
+  text-align: center;
+  padding: 5vh;
+}
